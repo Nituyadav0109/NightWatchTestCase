@@ -1,0 +1,529 @@
+1702902013548	geckodriver	INFO	Listening on 127.0.0.1:4444
+1702902013593	webdriver::server	DEBUG	-> GET /status 
+1702902013593	webdriver::server	DEBUG	<- 200 OK {"value":{"message":"","ready":true}}
+1702902013611	webdriver::server	DEBUG	-> POST /session {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"browserName":"firefox","moz:firefoxOptions":{"binary":"/usr/bin/firefox"}}}}
+1702902013611	geckodriver::capabilities	DEBUG	Trying to read firefox version from ini files
+1702902013612	geckodriver::capabilities	DEBUG	Found version 120.0.1
+1702902013614	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilet1v4YH"
+1702902013615	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1
+1702902013615	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilet1v4YH/MarionetteActivePort
+1702902013615	geckodriver::marionette	TRACE	Retrying in 100ms
+1702902013715	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilet1v4YH/MarionetteActivePort
+1702902013715	geckodriver::marionette	TRACE	Retrying in 100ms
+1702902013815	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilet1v4YH/MarionetteActivePort
+1702902013815	geckodriver::marionette	TRACE	Retrying in 100ms
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702902013915	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilet1v4YH/MarionetteActivePort
+1702902013915	geckodriver::marionette	TRACE	Retrying in 100ms
+1702902014015	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilet1v4YH/MarionetteActivePort
+1702902014015	geckodriver::marionette	TRACE	Retrying in 100ms
+1702902014115	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilet1v4YH/MarionetteActivePort
+1702902014115	geckodriver::marionette	TRACE	Retrying in 100ms
+1702902014216	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilet1v4YH/MarionetteActivePort
+1702902014216	geckodriver::marionette	TRACE	Retrying in 100ms
+1702902014316	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilet1v4YH/MarionetteActivePort
+1702902014316	geckodriver::marionette	TRACE	Retrying in 100ms
+1702902014416	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilet1v4YH/MarionetteActivePort
+1702902014416	geckodriver::marionette	TRACE	Retrying in 100ms
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702902014516	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilet1v4YH/MarionetteActivePort
+1702902014516	geckodriver::marionette	TRACE	Retrying in 100ms
+1702902014528	Marionette	INFO	Marionette enabled
+1702902014530	RemoteAgent	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1702902014530	RemoteAgent	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.activity-stream.showSponsoredTopSites to false
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.region.network.url to 
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.search.update to false
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.startup.couldRestoreSession.count to -1
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.closeWindowWithLastTab to false
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnClose to false
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.toolbars.bookmarks.visibility to never
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.topsites.contile.enabled to false
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.merino.endpointURL to 
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref dom.file.createInChild to true
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref dom.input_events.security.minNumTicks to 0
+1702902014531	RemoteAgent	DEBUG	Setting recommended pref dom.input_events.security.minTimeElapsedInMS to 0
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref dom.navigation.locationChangeRateLimit.count to 0
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref dom.screenorientation.allow-lock to true
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref dom.successive_dialog_time_limit to 0
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref extensions.blocklist.detailsURL to http://%(server)s/extensions-dummy/blocklistDetailsURL
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref extensions.blocklist.itemURL to http://%(server)s/extensions-dummy/blocklistItemURL
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref extensions.hotfix.url to http://%(server)s/extensions-dummy/hotfixURL
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref extensions.systemAddon.update.url to http://%(server)s/dummy-system-addons.xml
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref extensions.update.background.url to http://%(server)s/extensions-dummy/updateBackgroundURL
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref extensions.update.url to http://%(server)s/extensions-dummy/updateURL
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.get.url to http://%(server)s/extensions-dummy/repositoryGetURL
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref extensions.getAddons.search.browseURL to http://%(server)s/extensions-dummy/repositoryBrowseURL
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref geo.provider.network.url to 
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref identity.fxaccounts.auth.uri to https://{server}/dummy/fxa
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref network.connectivity-service.enabled to false
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref network.http.phishy-userpass-length to 255
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref security.remote_settings.intermediates.enabled to false
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref signon.autofillForms to false
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref signon.rememberSignons to false
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref toolkit.telemetry.server to https://%(server)s/telemetry-dummy/
+1702902014532	RemoteAgent	DEBUG	Setting recommended pref widget.windows.window_occlusion_tracking.enabled to false
+1702902014533	RemoteAgent	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1702902014533	Marionette	TRACE	Received observer notification final-ui-startup
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1702902014616	geckodriver::browser	TRACE	Failed to open /tmp/rust_mozprofilet1v4YH/MarionetteActivePort
+1702902014616	geckodriver::marionette	TRACE	Retrying in 100ms
+1702902014628	Marionette	INFO	Listening on port 40933
+1702902014629	Marionette	DEBUG	Marionette is listening
+Read port: 40933
+1702902014805	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:42842
+1702902014821	geckodriver::marionette	DEBUG	Connection to Marionette established on 127.0.0.1:40933.
+1702902014830	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"browserName":"firefox"}]
+1702902014833	Marionette	DEBUG	Waiting for initial application window
+console.error: ({})
+1702902016048	Marionette	TRACE	Received observer notification browser-idle-startup-tasks-finished
+1702902016053	RemoteAgent	TRACE	[8] ProgressListener Start: expectNavigation=false resolveWhenStarted=false unloadTimeout=5000 waitForExplicitStart=false
+1702902016053	RemoteAgent	TRACE	[8] ProgressListener Setting unload timer (5000ms)
+1702902016053	RemoteAgent	TRACE	[8] Document already finished loading: about:blank
+1702902016053	RemoteAgent	TRACE	[8] ProgressListener Stop: has error=false
+1702902016068	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"d87bbe8e-699b-4856-a614-d55fff90453b","capabilities":{"browserName":"firefox","browserVersion":"120.0.1","platformName":"linux","acceptInsecureCerts":false,"pageLoadStrategy":"normal","setWindowRect":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"strictFileInteractability":false,"unhandledPromptBehavior":"dismiss and notify","moz:accessibilityChecks":false,"moz:buildID":"20231129155202","moz:headless":false,"moz:platformVersion":"5.15.0-91-generic","moz:processID":29171,"moz:profile":"/tmp/rust_mozprofilet1v4YH","moz:shutdownTimeout":60000,"moz:webdriverClick":true,"moz:windowless":false,"proxy":{}}}]
+1702902016074	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"d87bbe8e-699b-4856-a614-d55fff90453b","capabilities":{"acceptInsecureCerts":false,"browserNa ... ctability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+1702902016111	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/window/maximize {"windowHandle":"current"}
+1702902016112	Marionette	DEBUG	0 -> [0,2,"WebDriver:MaximizeWindow",{}]
+1702902016385	Marionette	DEBUG	0 <- [1,2,null,{"x":72,"y":27,"width":1848,"height":1053}]
+1702902016386	webdriver::server	DEBUG	<- 200 OK {"value":{"x":72,"y":27,"width":1848,"height":1053}}
+1702902016393	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/url {"url":"https://nashtechglobal.qa.go1percent.com/"}
+1702902016394	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"https://nashtechglobal.qa.go1percent.com/"}]
+1702902016403	Marionette	TRACE	[8] Received event beforeunload for about:blank
+1702902017717	Marionette	TRACE	Remoteness change detected. Set new top-level browsing context to 11
+1702902017725	Marionette	TRACE	[11] Received event beforeunload for about:blank
+1702902017729	Marionette	TRACE	[11] Received event pagehide for about:blank
+1702902018302	Marionette	TRACE	[11] Received event DOMContentLoaded for https://nashtechglobal.qa.go1percent.com/
+console.error: ({})
+1702902018887	Marionette	TRACE	[11] Received event pageshow for https://nashtechglobal.qa.go1percent.com/
+1702902018888	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1702902018888	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1702902018904	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902018917	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"#username"}
+1702902018921	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElements",{"using":"css selector","value":"#username"}]
+1702902018931	RemoteAgent	TRACE	WebDriverProcessData actor created for PID 29365
+1702902018933	Marionette	TRACE	[11] MarionetteCommands actor created for window id 6442450945
+1702902018940	Marionette	DEBUG	0 <- [1,4,null,[]]
+1702902018941	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1702902019445	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"#username"}
+1702902019446	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElements",{"using":"css selector","value":"#username"}]
+1702902019448	Marionette	DEBUG	0 <- [1,5,null,[]]
+1702902019448	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1702902019889	Marionette	TRACE	[11] MarionetteCommands actor destroyed for window id 6442450945
+1702902019953	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"#username"}
+1702902019954	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElements",{"using":"css selector","value":"#username"}]
+1702902019955	Marionette	TRACE	[11] MarionetteCommands actor created for window id 6442450955
+1702902019956	Marionette	DEBUG	0 <- [1,6,null,[]]
+1702902019957	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1702902020460	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"#username"}
+1702902020461	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElements",{"using":"css selector","value":"#username"}]
+1702902020464	Marionette	DEBUG	0 <- [1,7,null,[{"element-6066-11e4-a52e-4f735466cecf":"69ed189a-2baf-41c4-9c49-3e83f051da0d"}]]
+1702902020464	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"69ed189a-2baf-41c4-9c49-3e83f051da0d"}]}
+1702902020467	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/69ed189a-2baf-41c4-9c49-3e83f051da0d/clear {}
+1702902020468	Marionette	DEBUG	0 -> [0,8,"WebDriver:ElementClear",{"id":"69ed189a-2baf-41c4-9c49-3e83f051da0d"}]
+1702902020472	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1702902020473	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902020477	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/69ed189a-2baf-41c4-9c49-3e83f051da0d/value {"text":"testemployee","value":["t","e","s","t","e","m","p","l","o","y","e","e"]}
+1702902020477	Marionette	DEBUG	0 -> [0,9,"WebDriver:ElementSendKeys",{"id":"69ed189a-2baf-41c4-9c49-3e83f051da0d","text":"testemployee","value":["t","e","s","t","e","m","p","l","o","y","e","e"]}]
+1702902020496	Marionette	DEBUG	0 <- [1,9,null,{"value":null}]
+1702902020496	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902021501	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"#password"}
+1702902021502	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElements",{"using":"css selector","value":"#password"}]
+1702902021504	Marionette	DEBUG	0 <- [1,10,null,[{"element-6066-11e4-a52e-4f735466cecf":"e8944a87-79cb-475a-9ff3-2cf916ca16c6"}]]
+1702902021505	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"e8944a87-79cb-475a-9ff3-2cf916ca16c6"}]}
+1702902021509	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/e8944a87-79cb-475a-9ff3-2cf916ca16c6/clear {}
+1702902021511	Marionette	DEBUG	0 -> [0,11,"WebDriver:ElementClear",{"id":"e8944a87-79cb-475a-9ff3-2cf916ca16c6"}]
+1702902021514	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1702902021514	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902021518	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/e8944a87-79cb-475a-9ff3-2cf916ca16c6/value {"text":"testemployee","value":["t","e","s","t","e","m","p","l","o","y","e","e"]}
+1702902021520	Marionette	DEBUG	0 -> [0,12,"WebDriver:ElementSendKeys",{"id":"e8944a87-79cb-475a-9ff3-2cf916ca16c6","text":"testemployee","value":["t","e","s","t","e","m","p","l","o","y","e","e"]}]
+1702902021539	Marionette	DEBUG	0 <- [1,12,null,{"value":null}]
+1702902021539	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902022546	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"#kc-login"}
+1702902022547	Marionette	DEBUG	0 -> [0,13,"WebDriver:FindElements",{"using":"css selector","value":"#kc-login"}]
+1702902022549	Marionette	DEBUG	0 <- [1,13,null,[{"element-6066-11e4-a52e-4f735466cecf":"98de3970-22bd-4d6b-9eee-bed2e44b4c2e"}]]
+1702902022550	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"98de3970-22bd-4d6b-9eee-bed2e44b4c2e"}]}
+1702902022554	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/98de3970-22bd-4d6b-9eee-bed2e44b4c2e/click {}
+1702902022555	Marionette	DEBUG	0 -> [0,14,"WebDriver:ElementClick",{"id":"98de3970-22bd-4d6b-9eee-bed2e44b4c2e"}]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://auth.go1percent.com."
+1702902022579	Marionette	TRACE	Received DOM event click for [object HTMLInputElement]
+1702902022580	Marionette	TRACE	[11] Received event beforeunload for https://auth.go1percent.com/auth/realms/nashtech/protocol/openid-connect/auth?client_id=leaderboard-qa-ui&redirect_uri=https% ... f278-4b31-b8f7-f9aecf213486&response_mode=fragment&response_type=code&scope=openid&nonce=dfe5e5a1-3f94-47c7-84e0-ba6d1814efdc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://auth.go1percent.com."
+1702902022713	Marionette	TRACE	[11] Received event pagehide for https://auth.go1percent.com/auth/realms/nashtech/protocol/openid-connect/auth?client_id=leaderboard-qa-ui&redirect_uri=https% ... f278-4b31-b8f7-f9aecf213486&response_mode=fragment&response_type=code&scope=openid&nonce=dfe5e5a1-3f94-47c7-84e0-ba6d1814efdc
+1702902022715	Marionette	TRACE	[11] MarionetteCommands actor destroyed for window id 6442450955
+1702902022887	Marionette	TRACE	[11] Received event DOMContentLoaded for https://nashtechglobal.qa.go1percent.com/my-dashboard#state=ec2ad2b9-f278-4b31-b8f7-f9aecf213486&session_state=f3d3005c-f045- ... 9d6761869&code=0e3fecfb-b51d-43f2-a543-b44a978f229a.f3d3005c-f045-4ce4-9680-d6c9d6761869.42e78464-d34d-4346-98bf-bc35976a6a6a
+console.error: ({})
+1702902022922	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1702902022962	Marionette	TRACE	[11] Received event pageshow for https://nashtechglobal.qa.go1percent.com/my-dashboard#state=ec2ad2b9-f278-4b31-b8f7-f9aecf213486&session_state=f3d3005c-f045- ... 9d6761869&code=0e3fecfb-b51d-43f2-a543-b44a978f229a.f3d3005c-f045-4ce4-9680-d6c9d6761869.42e78464-d34d-4346-98bf-bc35976a6a6a
+1702902022962	Marionette	DEBUG	0 <- [1,14,null,{"value":null}]
+1702902022966	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902022977	webdriver::server	DEBUG	-> GET /session/d87bbe8e-699b-4856-a614-d55fff90453b/url 
+1702902022987	Marionette	DEBUG	0 -> [0,15,"WebDriver:GetCurrentURL",{}]
+1702902022988	Marionette	DEBUG	0 <- [1,15,null,{"value":"https://nashtechglobal.qa.go1percent.com/my-dashboard"}]
+1702902022988	webdriver::server	DEBUG	<- 200 OK {"value":"https://nashtechglobal.qa.go1percent.com/my-dashboard"}
+1702902023007	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"xpath","value":"//h6[normalize-space()='Knolx']"}
+1702902023009	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElements",{"using":"xpath","value":"//h6[normalize-space()='Knolx']"}]
+1702902023010	Marionette	TRACE	[11] MarionetteCommands actor created for window id 6442450956
+1702902023012	Marionette	DEBUG	0 <- [1,16,null,[]]
+1702902023012	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1702902023515	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"xpath","value":"//h6[normalize-space()='Knolx']"}
+1702902023516	Marionette	DEBUG	0 -> [0,17,"WebDriver:FindElements",{"using":"xpath","value":"//h6[normalize-space()='Knolx']"}]
+1702902023517	Marionette	DEBUG	0 <- [1,17,null,[{"element-6066-11e4-a52e-4f735466cecf":"d9a8dfdf-b8c4-4b10-be86-2312410875c4"}]]
+1702902023517	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"d9a8dfdf-b8c4-4b10-be86-2312410875c4"}]}
+1702902023519	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/d9a8dfdf-b8c4-4b10-be86-2312410875c4/click {}
+1702902023520	Marionette	DEBUG	0 -> [0,18,"WebDriver:ElementClick",{"id":"d9a8dfdf-b8c4-4b10-be86-2312410875c4"}]
+1702902023528	Marionette	TRACE	Received DOM event click for [object HTMLHeadingElement]
+1702902023735	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1702902023735	Marionette	DEBUG	0 <- [1,18,null,{"value":null}]
+1702902023735	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902023738	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"xpath","value":"//h6[normalize-space()='Knolx']"}
+1702902023738	Marionette	DEBUG	0 -> [0,19,"WebDriver:FindElements",{"using":"xpath","value":"//h6[normalize-space()='Knolx']"}]
+1702902023739	Marionette	DEBUG	0 <- [1,19,null,[{"element-6066-11e4-a52e-4f735466cecf":"d9a8dfdf-b8c4-4b10-be86-2312410875c4"}]]
+1702902023740	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"d9a8dfdf-b8c4-4b10-be86-2312410875c4"}]}
+1702902023744	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/execute/sync {"script":"/* isDisplayed */return (function(){return (fun ... ement-6066-11e4-a52e-4f735466cecf":"d9a8dfdf-b8c4-4b10-be86-2312410875c4","ELEMENT":"d9a8dfdf-b8c4-4b10-be86-2312410875c4"}]}
+1702902023746	Marionette	DEBUG	0 -> [0,20,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"d9a8dfdf-b8c4-4b10-be86-2312410875c4","element-6066-11e4-a52e-4f735466cecf":"d9a8dfdf-b8c4-4b10-be86-2312410875c4"}],"script":"/* isDisplayed */return (function(){return (function(){var k=this||self;function aa(a){return\"string\"==typeof a}function ba(a ... efined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}).apply(null, arguments)"}]
+1702902023754	Marionette	DEBUG	0 <- [1,20,null,{"value":true}]
+1702902023754	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1702902023759	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"a[href='/knolx/my-sessions/my-upcoming-sessions']"}
+1702902023760	Marionette	DEBUG	0 -> [0,21,"WebDriver:FindElements",{"using":"css selector","value":"a[href='/knolx/my-sessions/my-upcoming-sessions']"}]
+1702902023763	Marionette	DEBUG	0 <- [1,21,null,[{"element-6066-11e4-a52e-4f735466cecf":"013f3046-6bdf-450f-84a9-d47173eb2546"}]]
+1702902023763	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"013f3046-6bdf-450f-84a9-d47173eb2546"}]}
+1702902023767	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/013f3046-6bdf-450f-84a9-d47173eb2546/click {}
+1702902023768	Marionette	DEBUG	0 -> [0,22,"WebDriver:ElementClick",{"id":"013f3046-6bdf-450f-84a9-d47173eb2546"}]
+1702902023788	Marionette	TRACE	Received DOM event click for https://nashtechglobal.qa.go1percent.com/knolx/my-sessions/my-upcoming-sessions
+1702902023995	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1702902023995	Marionette	DEBUG	0 <- [1,22,null,{"value":null}]
+1702902023996	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902024001	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"a[href='/knolx/my-sessions/my-upcoming-sessions']"}
+1702902024002	Marionette	DEBUG	0 -> [0,23,"WebDriver:FindElements",{"using":"css selector","value":"a[href='/knolx/my-sessions/my-upcoming-sessions']"}]
+1702902024004	Marionette	DEBUG	0 <- [1,23,null,[{"element-6066-11e4-a52e-4f735466cecf":"013f3046-6bdf-450f-84a9-d47173eb2546"}]]
+1702902024005	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"013f3046-6bdf-450f-84a9-d47173eb2546"}]}
+1702902024011	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/execute/sync {"script":"/* isDisplayed */return (function(){return (fun ... ement-6066-11e4-a52e-4f735466cecf":"013f3046-6bdf-450f-84a9-d47173eb2546","ELEMENT":"013f3046-6bdf-450f-84a9-d47173eb2546"}]}
+1702902024014	Marionette	DEBUG	0 -> [0,24,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"013f3046-6bdf-450f-84a9-d47173eb2546","element-6066-11e4-a52e-4f735466cecf":"013f3046-6bdf-450f-84a9-d47173eb2546"}],"script":"/* isDisplayed */return (function(){return (function(){var k=this||self;function aa(a){return\"string\"==typeof a}function ba(a ... efined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}).apply(null, arguments)"}]
+1702902024031	Marionette	DEBUG	0 <- [1,24,null,{"value":true}]
+1702902024032	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1702902024037	webdriver::server	DEBUG	-> GET /session/d87bbe8e-699b-4856-a614-d55fff90453b/url 
+1702902024038	Marionette	DEBUG	0 -> [0,25,"WebDriver:GetCurrentURL",{}]
+1702902024038	Marionette	DEBUG	0 <- [1,25,null,{"value":"https://nashtechglobal.qa.go1percent.com/my-dashboard"}]
+1702902024039	webdriver::server	DEBUG	<- 200 OK {"value":"https://nashtechglobal.qa.go1percent.com/my-dashboard"}
+1702902024544	webdriver::server	DEBUG	-> GET /session/d87bbe8e-699b-4856-a614-d55fff90453b/url 
+1702902024544	Marionette	DEBUG	0 -> [0,26,"WebDriver:GetCurrentURL",{}]
+1702902024544	Marionette	DEBUG	0 <- [1,26,null,{"value":"https://nashtechglobal.qa.go1percent.com/my-dashboard"}]
+1702902024545	webdriver::server	DEBUG	<- 200 OK {"value":"https://nashtechglobal.qa.go1percent.com/my-dashboard"}
+1702902025050	webdriver::server	DEBUG	-> GET /session/d87bbe8e-699b-4856-a614-d55fff90453b/url 
+1702902025051	Marionette	DEBUG	0 -> [0,27,"WebDriver:GetCurrentURL",{}]
+1702902025052	Marionette	DEBUG	0 <- [1,27,null,{"value":"https://nashtechglobal.qa.go1percent.com/knolx/my-sessions/my-upcoming-sessions"}]
+1702902025052	webdriver::server	DEBUG	<- 200 OK {"value":"https://nashtechglobal.qa.go1percent.com/knolx/my-sessions/my-upcoming-sessions"}
+1702902025066	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"a[class='tabs']"}
+1702902025066	Marionette	DEBUG	0 -> [0,28,"WebDriver:FindElements",{"using":"css selector","value":"a[class='tabs']"}]
+1702902025068	Marionette	DEBUG	0 <- [1,28,null,[{"element-6066-11e4-a52e-4f735466cecf":"e7ac06b9-5a9f-4778-a174-c1f899c0bf1e"}]]
+1702902025069	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"e7ac06b9-5a9f-4778-a174-c1f899c0bf1e"}]}
+1702902025074	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/e7ac06b9-5a9f-4778-a174-c1f899c0bf1e/click {}
+1702902025075	Marionette	DEBUG	0 -> [0,29,"WebDriver:ElementClick",{"id":"e7ac06b9-5a9f-4778-a174-c1f899c0bf1e"}]
+1702902025145	Marionette	TRACE	Received DOM event click for https://nashtechglobal.qa.go1percent.com/knolx/my-sessions/my-past-sessions
+1702902025377	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1702902025377	Marionette	DEBUG	0 <- [1,29,null,{"value":null}]
+1702902025377	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902025380	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"a[class='tabs']"}
+1702902025381	Marionette	DEBUG	0 -> [0,30,"WebDriver:FindElements",{"using":"css selector","value":"a[class='tabs']"}]
+1702902025383	Marionette	DEBUG	0 <- [1,30,null,[{"element-6066-11e4-a52e-4f735466cecf":"a7c0cbee-44ae-4595-b346-bf9a24b3e25c"}]]
+1702902025383	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"a7c0cbee-44ae-4595-b346-bf9a24b3e25c"}]}
+1702902025386	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/execute/sync {"script":"/* isDisplayed */return (function(){return (fun ... ement-6066-11e4-a52e-4f735466cecf":"a7c0cbee-44ae-4595-b346-bf9a24b3e25c","ELEMENT":"a7c0cbee-44ae-4595-b346-bf9a24b3e25c"}]}
+1702902025388	Marionette	DEBUG	0 -> [0,31,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"a7c0cbee-44ae-4595-b346-bf9a24b3e25c","element-6066-11e4-a52e-4f735466cecf":"a7c0cbee-44ae-4595-b346-bf9a24b3e25c"}],"script":"/* isDisplayed */return (function(){return (function(){var k=this||self;function aa(a){return\"string\"==typeof a}function ba(a ... efined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}).apply(null, arguments)"}]
+1702902025397	Marionette	DEBUG	0 <- [1,31,null,{"value":true}]
+1702902025397	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1702902025401	webdriver::server	DEBUG	-> GET /session/d87bbe8e-699b-4856-a614-d55fff90453b/url 
+1702902025402	Marionette	DEBUG	0 -> [0,32,"WebDriver:GetCurrentURL",{}]
+1702902025402	Marionette	DEBUG	0 <- [1,32,null,{"value":"https://nashtechglobal.qa.go1percent.com/knolx/my-sessions/my-past-sessions"}]
+1702902025403	webdriver::server	DEBUG	<- 200 OK {"value":"https://nashtechglobal.qa.go1percent.com/knolx/my-sessions/my-past-sessions"}
+1702902025414	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"xpath","value":"//span[normalize-space()='3']"}
+1702902025415	Marionette	DEBUG	0 -> [0,33,"WebDriver:FindElements",{"using":"xpath","value":"//span[normalize-space()='3']"}]
+1702902025417	Marionette	DEBUG	0 <- [1,33,null,[]]
+1702902025417	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1702902025921	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"xpath","value":"//span[normalize-space()='3']"}
+1702902025922	Marionette	DEBUG	0 -> [0,34,"WebDriver:FindElements",{"using":"xpath","value":"//span[normalize-space()='3']"}]
+1702902025927	Marionette	DEBUG	0 <- [1,34,null,[{"element-6066-11e4-a52e-4f735466cecf":"f7dc74db-bf8a-4145-97e0-3e9c0994a494"}]]
+1702902025928	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"f7dc74db-bf8a-4145-97e0-3e9c0994a494"}]}
+1702902025934	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/execute/sync {"script":"/* isDisplayed */return (function(){return (fun ... ement-6066-11e4-a52e-4f735466cecf":"f7dc74db-bf8a-4145-97e0-3e9c0994a494","ELEMENT":"f7dc74db-bf8a-4145-97e0-3e9c0994a494"}]}
+1702902025937	Marionette	DEBUG	0 -> [0,35,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"f7dc74db-bf8a-4145-97e0-3e9c0994a494","element-6066-11e4-a52e-4f735466cecf":"f7dc74db-bf8a-4145-97e0-3e9c0994a494"}],"script":"/* isDisplayed */return (function(){return (function(){var k=this||self;function aa(a){return\"string\"==typeof a}function ba(a ... efined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}).apply(null, arguments)"}]
+1702902025954	Marionette	DEBUG	0 <- [1,35,null,{"value":true}]
+1702902025954	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1702902025958	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"xpath","value":"//span[normalize-space()='3']"}
+1702902025959	Marionette	DEBUG	0 -> [0,36,"WebDriver:FindElements",{"using":"xpath","value":"//span[normalize-space()='3']"}]
+1702902025961	Marionette	DEBUG	0 <- [1,36,null,[{"element-6066-11e4-a52e-4f735466cecf":"f7dc74db-bf8a-4145-97e0-3e9c0994a494"}]]
+1702902025961	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"f7dc74db-bf8a-4145-97e0-3e9c0994a494"}]}
+1702902025966	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/f7dc74db-bf8a-4145-97e0-3e9c0994a494/click {}
+1702902025966	Marionette	DEBUG	0 -> [0,37,"WebDriver:ElementClick",{"id":"f7dc74db-bf8a-4145-97e0-3e9c0994a494"}]
+1702902026065	Marionette	TRACE	Received DOM event click for [object HTMLSpanElement]
+1702902026270	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1702902026271	Marionette	DEBUG	0 <- [1,37,null,{"value":null}]
+1702902026271	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902026275	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"app-my-sessions .card.p-2.mt-3 app-my-past-sessions div:nth-child(5) .mt-4.topic"}
+1702902026276	Marionette	DEBUG	0 -> [0,38,"WebDriver:FindElements",{"using":"css selector","value":"app-my-sessions .card.p-2.mt-3 app-my-past-sessions div:nth-child(5) .mt-4.topic"}]
+1702902026278	Marionette	DEBUG	0 <- [1,38,null,[{"element-6066-11e4-a52e-4f735466cecf":"61288e6e-f76b-4fe9-a353-b31679dd289a"}]]
+1702902026279	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"61288e6e-f76b-4fe9-a353-b31679dd289a"}]}
+1702902026285	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/execute/sync {"script":"/* isDisplayed */return (function(){return (fun ... ement-6066-11e4-a52e-4f735466cecf":"61288e6e-f76b-4fe9-a353-b31679dd289a","ELEMENT":"61288e6e-f76b-4fe9-a353-b31679dd289a"}]}
+1702902026288	Marionette	DEBUG	0 -> [0,39,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"61288e6e-f76b-4fe9-a353-b31679dd289a","element-6066-11e4-a52e-4f735466cecf":"61288e6e-f76b-4fe9-a353-b31679dd289a"}],"script":"/* isDisplayed */return (function(){return (function(){var k=this||self;function aa(a){return\"string\"==typeof a}function ba(a ... efined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}).apply(null, arguments)"}]
+1702902026304	Marionette	DEBUG	0 <- [1,39,null,{"value":true}]
+1702902026305	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1702902026308	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"app-my-sessions .card.p-2.mt-3 app-my-past-sessions div:nth-child(5) .mt-4.topic"}
+1702902026310	Marionette	DEBUG	0 -> [0,40,"WebDriver:FindElements",{"using":"css selector","value":"app-my-sessions .card.p-2.mt-3 app-my-past-sessions div:nth-child(5) .mt-4.topic"}]
+1702902026312	Marionette	DEBUG	0 <- [1,40,null,[{"element-6066-11e4-a52e-4f735466cecf":"61288e6e-f76b-4fe9-a353-b31679dd289a"}]]
+1702902026312	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"61288e6e-f76b-4fe9-a353-b31679dd289a"}]}
+1702902026315	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/61288e6e-f76b-4fe9-a353-b31679dd289a/click {}
+1702902026316	Marionette	DEBUG	0 -> [0,41,"WebDriver:ElementClick",{"id":"61288e6e-f76b-4fe9-a353-b31679dd289a"}]
+1702902026380	Marionette	TRACE	Received DOM event click for [object HTMLDivElement]
+1702902026602	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1702902026603	Marionette	DEBUG	0 <- [1,41,null,{"value":null}]
+1702902026603	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902028609	webdriver::server	DEBUG	-> GET /session/d87bbe8e-699b-4856-a614-d55fff90453b/url 
+1702902028610	Marionette	DEBUG	0 -> [0,42,"WebDriver:GetCurrentURL",{}]
+1702902028610	Marionette	DEBUG	0 <- [1,42,null,{"value":"https://nashtechglobal.qa.go1percent.com/knolx/my-sessions/my-past-sessions/65364ed48555d37c0a4f8dc7"}]
+1702902028611	webdriver::server	DEBUG	<- 200 OK {"value":"https://nashtechglobal.qa.go1percent.com/knolx/my-sessions/my-past-sessions/65364ed48555d37c0a4f8dc7"}
+1702902028621	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":".addTxt"}
+1702902028622	Marionette	DEBUG	0 -> [0,43,"WebDriver:FindElements",{"using":"css selector","value":".addTxt"}]
+1702902028625	Marionette	DEBUG	0 <- [1,43,null,[{"element-6066-11e4-a52e-4f735466cecf":"ba491a92-c3d9-46ab-91c7-ef9e53853a11"}]]
+1702902028625	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"ba491a92-c3d9-46ab-91c7-ef9e53853a11"}]}
+1702902028629	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/ba491a92-c3d9-46ab-91c7-ef9e53853a11/click {}
+1702902028629	Marionette	DEBUG	0 -> [0,44,"WebDriver:ElementClick",{"id":"ba491a92-c3d9-46ab-91c7-ef9e53853a11"}]
+1702902028698	Marionette	TRACE	Received DOM event click for [object HTMLSpanElement]
+1702902028912	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1702902028912	Marionette	DEBUG	0 <- [1,44,null,{"value":null}]
+1702902028913	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902030919	webdriver::server	DEBUG	-> GET /session/d87bbe8e-699b-4856-a614-d55fff90453b/url 
+1702902030920	Marionette	DEBUG	0 -> [0,45,"WebDriver:GetCurrentURL",{}]
+1702902030920	Marionette	DEBUG	0 <- [1,45,null,{"value":"https://nashtechglobal.qa.go1percent.com/knolx/my-sessions/my-past-sessions"}]
+1702902030921	webdriver::server	DEBUG	<- 200 OK {"value":"https://nashtechglobal.qa.go1percent.com/knolx/my-sessions/my-past-sessions"}
+1702902030938	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"xpath","value":"//span[normalize-space()='3']"}
+1702902030938	Marionette	DEBUG	0 -> [0,46,"WebDriver:FindElements",{"using":"xpath","value":"//span[normalize-space()='3']"}]
+1702902030943	Marionette	DEBUG	0 <- [1,46,null,[{"element-6066-11e4-a52e-4f735466cecf":"429a9b11-44f1-4614-859e-be9d35820073"}]]
+1702902030944	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"429a9b11-44f1-4614-859e-be9d35820073"}]}
+1702902030951	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/execute/sync {"script":"/* isDisplayed */return (function(){return (fun ... ement-6066-11e4-a52e-4f735466cecf":"429a9b11-44f1-4614-859e-be9d35820073","ELEMENT":"429a9b11-44f1-4614-859e-be9d35820073"}]}
+1702902030954	Marionette	DEBUG	0 -> [0,47,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"429a9b11-44f1-4614-859e-be9d35820073","element-6066-11e4-a52e-4f735466cecf":"429a9b11-44f1-4614-859e-be9d35820073"}],"script":"/* isDisplayed */return (function(){return (function(){var k=this||self;function aa(a){return\"string\"==typeof a}function ba(a ... efined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}).apply(null, arguments)"}]
+1702902030971	Marionette	DEBUG	0 <- [1,47,null,{"value":true}]
+1702902030972	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1702902030976	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"xpath","value":"//span[normalize-space()='3']"}
+1702902030977	Marionette	DEBUG	0 -> [0,48,"WebDriver:FindElements",{"using":"xpath","value":"//span[normalize-space()='3']"}]
+1702902030979	Marionette	DEBUG	0 <- [1,48,null,[{"element-6066-11e4-a52e-4f735466cecf":"429a9b11-44f1-4614-859e-be9d35820073"}]]
+1702902030979	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"429a9b11-44f1-4614-859e-be9d35820073"}]}
+1702902030982	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/429a9b11-44f1-4614-859e-be9d35820073/click {}
+1702902030983	Marionette	DEBUG	0 -> [0,49,"WebDriver:ElementClick",{"id":"429a9b11-44f1-4614-859e-be9d35820073"}]
+1702902031034	Marionette	TRACE	Received DOM event click for [object HTMLSpanElement]
+1702902031239	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1702902031239	Marionette	DEBUG	0 <- [1,49,null,{"value":null}]
+1702902031239	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902031243	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"app-my-sessions .card.p-2.mt-3 app-my-past-sessions div:nth-child(5) .mt-4.topic"}
+1702902031243	Marionette	DEBUG	0 -> [0,50,"WebDriver:FindElements",{"using":"css selector","value":"app-my-sessions .card.p-2.mt-3 app-my-past-sessions div:nth-child(5) .mt-4.topic"}]
+1702902031246	Marionette	DEBUG	0 <- [1,50,null,[{"element-6066-11e4-a52e-4f735466cecf":"ac316489-52fc-40fb-a568-342f64212208"}]]
+1702902031246	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"ac316489-52fc-40fb-a568-342f64212208"}]}
+1702902031253	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/execute/sync {"script":"/* isDisplayed */return (function(){return (fun ... ement-6066-11e4-a52e-4f735466cecf":"ac316489-52fc-40fb-a568-342f64212208","ELEMENT":"ac316489-52fc-40fb-a568-342f64212208"}]}
+1702902031256	Marionette	DEBUG	0 -> [0,51,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"ac316489-52fc-40fb-a568-342f64212208","element-6066-11e4-a52e-4f735466cecf":"ac316489-52fc-40fb-a568-342f64212208"}],"script":"/* isDisplayed */return (function(){return (function(){var k=this||self;function aa(a){return\"string\"==typeof a}function ba(a ... efined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}).apply(null, arguments)"}]
+1702902031264	Marionette	DEBUG	0 <- [1,51,null,{"value":true}]
+1702902031264	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1702902031266	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"app-my-sessions .card.p-2.mt-3 app-my-past-sessions div:nth-child(5) .mt-4.topic"}
+1702902031267	Marionette	DEBUG	0 -> [0,52,"WebDriver:FindElements",{"using":"css selector","value":"app-my-sessions .card.p-2.mt-3 app-my-past-sessions div:nth-child(5) .mt-4.topic"}]
+1702902031269	Marionette	DEBUG	0 <- [1,52,null,[{"element-6066-11e4-a52e-4f735466cecf":"ac316489-52fc-40fb-a568-342f64212208"}]]
+1702902031270	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"ac316489-52fc-40fb-a568-342f64212208"}]}
+1702902031272	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/ac316489-52fc-40fb-a568-342f64212208/click {}
+1702902031273	Marionette	DEBUG	0 -> [0,53,"WebDriver:ElementClick",{"id":"ac316489-52fc-40fb-a568-342f64212208"}]
+1702902031336	Marionette	TRACE	Received DOM event click for [object HTMLDivElement]
+1702902031545	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1702902031545	Marionette	DEBUG	0 <- [1,53,null,{"value":null}]
+1702902031546	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902033552	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":".ms-2.fw-bold.text-sm.my-auto.text-white"}
+1702902033553	Marionette	DEBUG	0 -> [0,54,"WebDriver:FindElements",{"using":"css selector","value":".ms-2.fw-bold.text-sm.my-auto.text-white"}]
+1702902033555	Marionette	DEBUG	0 <- [1,54,null,[{"element-6066-11e4-a52e-4f735466cecf":"cb11ef65-5bb6-46bd-9fe8-65fcab4d3551"}]]
+1702902033556	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"cb11ef65-5bb6-46bd-9fe8-65fcab4d3551"}]}
+1702902033559	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/cb11ef65-5bb6-46bd-9fe8-65fcab4d3551/click {}
+1702902033559	Marionette	DEBUG	0 -> [0,55,"WebDriver:ElementClick",{"id":"cb11ef65-5bb6-46bd-9fe8-65fcab4d3551"}]
+1702902033605	Marionette	TRACE	Received DOM event click for [object HTMLSpanElement]
+1702902033829	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1702902033829	Marionette	DEBUG	0 <- [1,55,null,{"value":null}]
+1702902033830	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902033835	webdriver::server	DEBUG	-> GET /session/d87bbe8e-699b-4856-a614-d55fff90453b/url 
+1702902033835	Marionette	DEBUG	0 -> [0,56,"WebDriver:GetCurrentURL",{}]
+1702902033836	Marionette	DEBUG	0 <- [1,56,null,{"value":"https://nashtechglobal.qa.go1percent.com/knolx/feedback-report?id=65364ed48555d37c0a4f8dc7"}]
+1702902033836	webdriver::server	DEBUG	<- 200 OK {"value":"https://nashtechglobal.qa.go1percent.com/knolx/feedback-report?id=65364ed48555d37c0a4f8dc7"}
+1702902033841	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"div[class='page-wrapper justify-content-center mb-3 cursor-pointer overall-txt-color mx-2'] strong"}
+1702902033842	Marionette	DEBUG	0 -> [0,57,"WebDriver:FindElements",{"using":"css selector","value":"div[class='page-wrapper justify-content-center mb-3 cursor-pointer overall-txt-color mx-2'] strong"}]
+1702902033849	Marionette	DEBUG	0 <- [1,57,null,[{"element-6066-11e4-a52e-4f735466cecf":"ea5f1c0a-29be-4b64-8a68-3c22a460218a"}]]
+1702902033850	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"ea5f1c0a-29be-4b64-8a68-3c22a460218a"}]}
+1702902033852	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/ea5f1c0a-29be-4b64-8a68-3c22a460218a/click {}
+1702902033853	Marionette	DEBUG	0 -> [0,58,"WebDriver:ElementClick",{"id":"ea5f1c0a-29be-4b64-8a68-3c22a460218a"}]
+1702902033906	Marionette	TRACE	Received DOM event click for [object HTMLElement]
+1702902034117	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1702902034117	Marionette	DEBUG	0 <- [1,58,null,{"value":null}]
+1702902034118	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902034135	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"xpath","value":"//span[normalize-space()='3']"}
+1702902034136	Marionette	DEBUG	0 -> [0,59,"WebDriver:FindElements",{"using":"xpath","value":"//span[normalize-space()='3']"}]
+1702902034139	Marionette	DEBUG	0 <- [1,59,null,[{"element-6066-11e4-a52e-4f735466cecf":"35a58943-d02a-4a3a-8071-016418bea0a1"}]]
+1702902034139	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"35a58943-d02a-4a3a-8071-016418bea0a1"}]}
+1702902034146	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/execute/sync {"script":"/* isDisplayed */return (function(){return (fun ... ement-6066-11e4-a52e-4f735466cecf":"35a58943-d02a-4a3a-8071-016418bea0a1","ELEMENT":"35a58943-d02a-4a3a-8071-016418bea0a1"}]}
+1702902034150	Marionette	DEBUG	0 -> [0,60,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"35a58943-d02a-4a3a-8071-016418bea0a1","element-6066-11e4-a52e-4f735466cecf":"35a58943-d02a-4a3a-8071-016418bea0a1"}],"script":"/* isDisplayed */return (function(){return (function(){var k=this||self;function aa(a){return\"string\"==typeof a}function ba(a ... efined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}).apply(null, arguments)"}]
+1702902034166	Marionette	DEBUG	0 <- [1,60,null,{"value":true}]
+1702902034166	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1702902034170	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"xpath","value":"//span[normalize-space()='3']"}
+1702902034170	Marionette	DEBUG	0 -> [0,61,"WebDriver:FindElements",{"using":"xpath","value":"//span[normalize-space()='3']"}]
+1702902034172	Marionette	DEBUG	0 <- [1,61,null,[{"element-6066-11e4-a52e-4f735466cecf":"35a58943-d02a-4a3a-8071-016418bea0a1"}]]
+1702902034172	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"35a58943-d02a-4a3a-8071-016418bea0a1"}]}
+1702902034175	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/35a58943-d02a-4a3a-8071-016418bea0a1/click {}
+1702902034176	Marionette	DEBUG	0 -> [0,62,"WebDriver:ElementClick",{"id":"35a58943-d02a-4a3a-8071-016418bea0a1"}]
+1702902034199	Marionette	TRACE	Received DOM event click for [object HTMLSpanElement]
+1702902034406	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1702902034407	Marionette	DEBUG	0 <- [1,62,null,{"value":null}]
+1702902034407	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902034412	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"app-my-sessions .card.p-2.mt-3 app-my-past-sessions div:nth-child(5) .mt-4.topic"}
+1702902034413	Marionette	DEBUG	0 -> [0,63,"WebDriver:FindElements",{"using":"css selector","value":"app-my-sessions .card.p-2.mt-3 app-my-past-sessions div:nth-child(5) .mt-4.topic"}]
+1702902034417	Marionette	DEBUG	0 <- [1,63,null,[{"element-6066-11e4-a52e-4f735466cecf":"466ce057-7925-4c14-a084-47f2695bab3e"}]]
+1702902034418	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"466ce057-7925-4c14-a084-47f2695bab3e"}]}
+1702902034424	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/execute/sync {"script":"/* isDisplayed */return (function(){return (fun ... ement-6066-11e4-a52e-4f735466cecf":"466ce057-7925-4c14-a084-47f2695bab3e","ELEMENT":"466ce057-7925-4c14-a084-47f2695bab3e"}]}
+1702902034427	Marionette	DEBUG	0 -> [0,64,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"466ce057-7925-4c14-a084-47f2695bab3e","element-6066-11e4-a52e-4f735466cecf":"466ce057-7925-4c14-a084-47f2695bab3e"}],"script":"/* isDisplayed */return (function(){return (function(){var k=this||self;function aa(a){return\"string\"==typeof a}function ba(a ... efined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}).apply(null, arguments)"}]
+1702902034443	Marionette	DEBUG	0 <- [1,64,null,{"value":true}]
+1702902034444	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1702902034447	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"app-my-sessions .card.p-2.mt-3 app-my-past-sessions div:nth-child(5) .mt-4.topic"}
+1702902034448	Marionette	DEBUG	0 -> [0,65,"WebDriver:FindElements",{"using":"css selector","value":"app-my-sessions .card.p-2.mt-3 app-my-past-sessions div:nth-child(5) .mt-4.topic"}]
+1702902034450	Marionette	DEBUG	0 <- [1,65,null,[{"element-6066-11e4-a52e-4f735466cecf":"466ce057-7925-4c14-a084-47f2695bab3e"}]]
+1702902034450	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"466ce057-7925-4c14-a084-47f2695bab3e"}]}
+1702902034453	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/466ce057-7925-4c14-a084-47f2695bab3e/click {}
+1702902034453	Marionette	DEBUG	0 -> [0,66,"WebDriver:ElementClick",{"id":"466ce057-7925-4c14-a084-47f2695bab3e"}]
+1702902034521	Marionette	TRACE	Received DOM event click for [object HTMLDivElement]
+1702902034733	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1702902034733	Marionette	DEBUG	0 <- [1,66,null,{"value":null}]
+1702902034734	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902036739	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"span[class='ms-2 fw-bold text-sm my-auto']"}
+1702902036740	Marionette	DEBUG	0 -> [0,67,"WebDriver:FindElements",{"using":"css selector","value":"span[class='ms-2 fw-bold text-sm my-auto']"}]
+1702902036743	Marionette	DEBUG	0 <- [1,67,null,[{"element-6066-11e4-a52e-4f735466cecf":"289b9f6b-ea83-4205-aea5-571533391624"}]]
+1702902036743	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"289b9f6b-ea83-4205-aea5-571533391624"}]}
+1702902036747	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/289b9f6b-ea83-4205-aea5-571533391624/click {}
+1702902036748	Marionette	DEBUG	0 -> [0,68,"WebDriver:ElementClick",{"id":"289b9f6b-ea83-4205-aea5-571533391624"}]
+1702902036753	Marionette	DEBUG	0 <- [1,68,{"error":"element not interactable","message":"Element <span class=\"ms-2 fw-bold text-sm my-auto\"> could not be scrolled into view","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... eCommandsChild.sys.mjs:202:29\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:84:31\n"},null]
+1702902036754	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"element not interactable","message":"Element <span class=\"ms-2 fw-bold text-sm my-auto ... andsChild.sys.mjs:202:29\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:84:31\n"}}
+1702902036760	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":"span[class='ms-2 fw-bold text-sm my-auto']"}
+1702902036761	Marionette	DEBUG	0 -> [0,69,"WebDriver:FindElements",{"using":"css selector","value":"span[class='ms-2 fw-bold text-sm my-auto']"}]
+1702902036763	Marionette	DEBUG	0 <- [1,69,null,[{"element-6066-11e4-a52e-4f735466cecf":"289b9f6b-ea83-4205-aea5-571533391624"}]]
+1702902036764	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"289b9f6b-ea83-4205-aea5-571533391624"}]}
+1702902036767	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/289b9f6b-ea83-4205-aea5-571533391624/click {}
+1702902036768	Marionette	DEBUG	0 -> [0,70,"WebDriver:ElementClick",{"id":"289b9f6b-ea83-4205-aea5-571533391624"}]
+1702902036773	Marionette	DEBUG	0 <- [1,70,{"error":"element not interactable","message":"Element <span class=\"ms-2 fw-bold text-sm my-auto\"> could not be scrolled into view","stacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Er ... eCommandsChild.sys.mjs:202:29\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:84:31\n"},null]
+1702902036775	webdriver::server	DEBUG	<- 400 Bad Request {"value":{"error":"element not interactable","message":"Element <span class=\"ms-2 fw-bold text-sm my-auto ... andsChild.sys.mjs:202:29\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:84:31\n"}}
+1702902037279	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/289b9f6b-ea83-4205-aea5-571533391624/click {}
+1702902037280	Marionette	DEBUG	0 -> [0,71,"WebDriver:ElementClick",{"id":"289b9f6b-ea83-4205-aea5-571533391624"}]
+1702902037329	Marionette	TRACE	Received DOM event click for [object HTMLSpanElement]
+1702902037543	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1702902037543	Marionette	DEBUG	0 <- [1,71,null,{"value":null}]
+1702902037544	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902037550	webdriver::server	DEBUG	-> GET /session/d87bbe8e-699b-4856-a614-d55fff90453b/url 
+1702902037550	Marionette	DEBUG	0 -> [0,72,"WebDriver:GetCurrentURL",{}]
+1702902037551	Marionette	DEBUG	0 <- [1,72,null,{"value":"https://nashtechglobal.qa.go1percent.com/knolx/spotlight-knolder?id=65364ed48555d37c0a4f8dc7"}]
+1702902037551	webdriver::server	DEBUG	<- 200 OK {"value":"https://nashtechglobal.qa.go1percent.com/knolx/spotlight-knolder?id=65364ed48555d37c0a4f8dc7"}
+1702902037556	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":".material-icons.back-icon.navigate-back-icon"}
+1702902037557	Marionette	DEBUG	0 -> [0,73,"WebDriver:FindElements",{"using":"css selector","value":".material-icons.back-icon.navigate-back-icon"}]
+1702902037559	Marionette	DEBUG	0 <- [1,73,null,[{"element-6066-11e4-a52e-4f735466cecf":"561aeb90-dcf9-4f39-953f-060af3c05854"}]]
+1702902037559	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"561aeb90-dcf9-4f39-953f-060af3c05854"}]}
+1702902037566	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/execute/sync {"script":"/* isDisplayed */return (function(){return (fun ... ement-6066-11e4-a52e-4f735466cecf":"561aeb90-dcf9-4f39-953f-060af3c05854","ELEMENT":"561aeb90-dcf9-4f39-953f-060af3c05854"}]}
+1702902037569	Marionette	DEBUG	0 -> [0,74,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"561aeb90-dcf9-4f39-953f-060af3c05854","element-6066-11e4-a52e-4f735466cecf":"561aeb90-dcf9-4f39-953f-060af3c05854"}],"script":"/* isDisplayed */return (function(){return (function(){var k=this||self;function aa(a){return\"string\"==typeof a}function ba(a ... efined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}).apply(null, arguments)"}]
+1702902037586	Marionette	DEBUG	0 <- [1,74,null,{"value":true}]
+1702902037587	webdriver::server	DEBUG	<- 200 OK {"value":true}
+1702902037591	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/elements {"using":"css selector","value":".material-icons.back-icon.navigate-back-icon"}
+1702902037591	Marionette	DEBUG	0 -> [0,75,"WebDriver:FindElements",{"using":"css selector","value":".material-icons.back-icon.navigate-back-icon"}]
+1702902037593	Marionette	DEBUG	0 <- [1,75,null,[{"element-6066-11e4-a52e-4f735466cecf":"561aeb90-dcf9-4f39-953f-060af3c05854"}]]
+1702902037594	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"561aeb90-dcf9-4f39-953f-060af3c05854"}]}
+1702902037598	webdriver::server	DEBUG	-> POST /session/d87bbe8e-699b-4856-a614-d55fff90453b/element/561aeb90-dcf9-4f39-953f-060af3c05854/click {}
+1702902037599	Marionette	DEBUG	0 -> [0,76,"WebDriver:ElementClick",{"id":"561aeb90-dcf9-4f39-953f-060af3c05854"}]
+1702902037668	Marionette	TRACE	Received DOM event click for [object HTMLSpanElement]
+1702902037883	Marionette	TRACE	Canceled page load listener because no navigation has been detected
+1702902037884	Marionette	DEBUG	0 <- [1,76,null,{"value":null}]
+1702902037884	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1702902037889	webdriver::server	DEBUG	-> GET /session/d87bbe8e-699b-4856-a614-d55fff90453b/url 
+1702902037890	Marionette	DEBUG	0 -> [0,77,"WebDriver:GetCurrentURL",{}]
+1702902037891	Marionette	DEBUG	0 <- [1,77,null,{"value":"https://nashtechglobal.qa.go1percent.com/knolx/my-sessions/my-past-sessions?id=65364ed48555d37c0a4f8dc7"}]
+1702902037891	webdriver::server	DEBUG	<- 200 OK {"value":"https://nashtechglobal.qa.go1percent.com/knolx/my-sessions/my-past-sessions?id=65364ed48555d37c0a4f8dc7"}
+1702902037909	webdriver::server	DEBUG	-> DELETE /session/d87bbe8e-699b-4856-a614-d55fff90453b 
+1702902037910	Marionette	DEBUG	0 -> [0,78,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1702902037911	Marionette	INFO	Stopped listening on port 40933
+JavaScript warning: https://nashtechglobal.qa.go1percent.com/polyfills.60e1b57c7c05e950.js, line 1: Script terminated by timeout at:
+7181/pe/d/m.args[0]@https://nashtechglobal.qa.go1percent.com/polyfills.60e1b57c7c05e950.js:1:27997
+
+1702902038270	Marionette	TRACE	[11] MarionetteCommands actor destroyed for window id 6442450956
+1702902038303	Marionette	TRACE	Received observer notification quit-application
+1702902038305	Marionette	TRACE	Received observer notification quit-application
+1702902038305	RemoteAgent	DEBUG	Resetting recommended pref apz.content_response_timeout
+1702902038305	RemoteAgent	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1702902038306	RemoteAgent	DEBUG	Resetting recommended pref browser.download.panel.shown
+1702902038306	RemoteAgent	DEBUG	Resetting recommended pref browser.newtabpage.activity-stream.showSponsoredTopSites
+1702902038306	RemoteAgent	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1702902038307	RemoteAgent	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1702902038307	RemoteAgent	DEBUG	Resetting recommended pref browser.region.network.url
+1702902038308	RemoteAgent	DEBUG	Resetting recommended pref browser.search.update
+1702902038308	RemoteAgent	DEBUG	Resetting recommended pref browser.startup.couldRestoreSession.count
+1702902038308	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.closeWindowWithLastTab
+1702902038308	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1702902038308	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.warnOnClose
+1702902038308	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1702902038308	RemoteAgent	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1702902038308	RemoteAgent	DEBUG	Resetting recommended pref browser.toolbars.bookmarks.visibility
+1702902038309	RemoteAgent	DEBUG	Resetting recommended pref browser.topsites.contile.enabled
+1702902038309	RemoteAgent	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1702902038310	RemoteAgent	DEBUG	Resetting recommended pref browser.urlbar.merino.endpointURL
+1702902038312	RemoteAgent	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1702902038313	RemoteAgent	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1702902038313	RemoteAgent	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1702902038313	RemoteAgent	DEBUG	Resetting recommended pref dom.file.createInChild
+1702902038313	RemoteAgent	DEBUG	Resetting recommended pref dom.input_events.security.minNumTicks
+1702902038313	RemoteAgent	DEBUG	Resetting recommended pref dom.input_events.security.minTimeElapsedInMS
+1702902038314	RemoteAgent	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1702902038314	RemoteAgent	DEBUG	Resetting recommended pref dom.max_script_run_time
+1702902038314	RemoteAgent	DEBUG	Resetting recommended pref dom.navigation.locationChangeRateLimit.count
+1702902038314	RemoteAgent	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1702902038315	RemoteAgent	DEBUG	Resetting recommended pref dom.screenorientation.allow-lock
+1702902038315	RemoteAgent	DEBUG	Resetting recommended pref dom.successive_dialog_time_limit
+1702902038315	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1702902038315	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.discovery.api_url
+1702902038315	RemoteAgent	DEBUG	Resetting recommended pref extensions.blocklist.detailsURL
+1702902038315	RemoteAgent	DEBUG	Resetting recommended pref extensions.blocklist.itemURL
+1702902038316	RemoteAgent	DEBUG	Resetting recommended pref extensions.hotfix.url
+1702902038316	RemoteAgent	DEBUG	Resetting recommended pref extensions.systemAddon.update.url
+1702902038316	RemoteAgent	DEBUG	Resetting recommended pref extensions.update.background.url
+1702902038317	RemoteAgent	DEBUG	Resetting recommended pref extensions.update.url
+1702902038317	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.get.url
+1702902038317	RemoteAgent	DEBUG	Resetting recommended pref extensions.getAddons.search.browseURL
+1702902038318	RemoteAgent	DEBUG	Resetting recommended pref geo.provider.network.url
+1702902038318	RemoteAgent	DEBUG	Resetting recommended pref identity.fxaccounts.auth.uri
+1702902038318	RemoteAgent	DEBUG	Resetting recommended pref network.connectivity-service.enabled
+1702902038318	RemoteAgent	DEBUG	Resetting recommended pref network.http.phishy-userpass-length
+1702902038318	RemoteAgent	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1702902038318	RemoteAgent	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1702902038318	RemoteAgent	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1702902038318	RemoteAgent	DEBUG	Resetting recommended pref security.notification_enable_delay
+1702902038318	RemoteAgent	DEBUG	Resetting recommended pref security.remote_settings.intermediates.enabled
+1702902038319	RemoteAgent	DEBUG	Resetting recommended pref signon.autofillForms
+1702902038319	RemoteAgent	DEBUG	Resetting recommended pref signon.rememberSignons
+1702902038320	RemoteAgent	DEBUG	Resetting recommended pref toolkit.telemetry.server
+1702902038321	RemoteAgent	DEBUG	Resetting recommended pref widget.windows.window_occlusion_tracking.enabled
+1702902038321	RemoteAgent	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1702902038322	Marionette	DEBUG	Marionette stopped listening
+1702902038322	Marionette	DEBUG	0 <- [1,78,null,{"cause":"shutdown","forced":false,"in_app":true}]
+1702902038346	webdriver::server	DEBUG	Teardown session
+1702902038348	Marionette	DEBUG	Closed connection 0
+1702902038647	geckodriver::browser	DEBUG	Browser process stopped: exit status: 0
+1702902038660	webdriver::server	DEBUG	<- 200 OK {"value":null}
